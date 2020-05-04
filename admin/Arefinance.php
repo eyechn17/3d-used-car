@@ -42,17 +42,17 @@ session_start();
                 </a>
                 <a href="./BrandManagement.php">
                   <button class="dropdown-item nav-link-dropdown" type="button">
-                    ยี่ห้อ
+                    ยี่ห้อรถยนต์
                   </button>
                 </a>
                 <a href="./ModelManagement.php">
                   <button class="dropdown-item nav-link-dropdown" type="button">
-                    รุ่น
+                    รุ่นรถยนต์
                   </button>
                 </a>
                 <a href="./CarTypeManagement.php">
                   <button class="dropdown-item nav-link-dropdown" type="button">
-                    ประเภทรถ
+                    ประเภทรถยนต์
                   </button>
                 </a>
               </div>
@@ -74,7 +74,7 @@ session_start();
                 </a>
                 <a href="./AllCar.php">
                   <button class="dropdown-item nav-link-dropdown" type="button">
-                    ทั้งหมด
+                    รถยนต์ทั้งหมด
                   </button>
                 </a>
                 <a href="./FormAddCar.php">
@@ -84,7 +84,7 @@ session_start();
                 </a>
 				<a href="./Report.php">
                   <button class="dropdown-item nav-link-dropdown" type="button">
-                    รายงาน
+                    สัญญาซื้อขาย
                   </button>
                 </a>
               </div>

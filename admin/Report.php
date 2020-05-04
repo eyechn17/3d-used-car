@@ -31,7 +31,7 @@
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
           <li class="nav-item">
             <div class="dropdown">
-              <a href="#" class="nav-link dropdown-toggle" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">จัดการหน้าแรก</a>
+              <a href="#" class="nav-link dropdown-toggle" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">หน้าแรก</a>
               <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
                 <a href="./SlideManagement.php">
                   <button class="dropdown-item nav-link-dropdown" type="button">
@@ -40,17 +40,17 @@
                 </a>
                 <a href="./BrandManagement.php">
                   <button class="dropdown-item nav-link-dropdown" type="button">
-                    ยี่ห้อ
+                    ยี่ห้อรถยนต์
                   </button>
                 </a>
                 <a href="./ModelManagement.php">
                   <button class="dropdown-item nav-link-dropdown" type="button">
-                    รุ่น
+                    รุ่นรถยนต์
                   </button>
                 </a>
                 <a href="./CarTypeManagement.php">
                   <button class="dropdown-item nav-link-dropdown" type="button">
-                    ประเภทรถ
+                    ประเภทรถยนต์
                   </button>
                 </a>
               </div>
@@ -58,31 +58,31 @@
           </li>
           <li class="nav-item">
             <div class="dropdown">
-              <a href="#" class="nav-link dropdown-toggle" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">จัดการสินค้า</a>
+              <a href="#" class="nav-link dropdown-toggle" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">สินค้า</a>
               <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
                 <a href="./StockCar.php">
                   <button class="dropdown-item nav-link-dropdown" type="button">
-                    ยังไม่ขาย
+                    รถยนต์ที่ยังไม่จำหน่าย
                   </button>
                 </a>
                 <a href="./SoldCar.php">
                   <button class="dropdown-item nav-link-dropdown" type="button">
-                    ขายแล้ว
+                    รถยนต์ที่จำหน่ายแล้ว
                   </button>
                 </a>
                 <a href="./AllCar.php">
                   <button class="dropdown-item nav-link-dropdown" type="button">
-                    ทั้งหมด
+                    รถยนต์ทั้งหมด
                   </button>
                 </a>
                 <a href="./FormAddCar.php">
                   <button class="dropdown-item nav-link-dropdown" type="button">
-                    เพิ่มสินค้า
+                    เพิ่มรถยนต์
                   </button>
                 </a>
                 <a href="./Report.php">
                   <button class="dropdown-item nav-link-dropdown" type="button">
-                    รายงาน
+                    สัญญาซื้อขาย
                   </button>
                 </a>
               </div>
@@ -90,7 +90,7 @@
           </li>
           <li class="nav-item">
             <div class="dropdown">
-              <a href="#" class="nav-link dropdown-toggle" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">จัดการเว็บ</a>
+              <a href="#" class="nav-link dropdown-toggle" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">บริการ</a>
               <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
                 <a href="./Arefinance.php">
                   <button class="dropdown-item nav-link-dropdown" type="button">
@@ -129,7 +129,7 @@
   </nav>
 
   <div class="container-info">
-    <label class="topic">รายงาน</label>
+    <label class="topic">สัญญาซื้อ-ขาย</label>
     <hr>
     <div class="info-manage">
       <div class="report-detail-wrapper">
@@ -256,10 +256,11 @@
             } else {
               echo "hidden";
             } ?>>
-        <label>เลขใบสัญญาที่ :<?php if ($sum == "1") {
-                                echo $id;
-                              } else {
-                              } ?></label><br>
+        <?php echo "<label>เลขที่ใบสัญญา$n  :";
+        if ($sum == "1") {
+          echo $id;
+        } else {
+        } ?></label><br>
         <div class="report-detail-wrapper">
           <div class="report-description bordered">
             <?php
@@ -360,7 +361,7 @@
                       <label>ในราคาทั้งสิ้น</label>
                     </td>
                     <td>
-                      <label>: $price บาท</label>
+                      <label>: ".number_format($price)." บาท</label>
                     </td>
                   </tr>
                 </tbody>

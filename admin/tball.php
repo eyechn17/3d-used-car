@@ -57,7 +57,7 @@
 						รถยนต์ที่จำหน่ายแล้ว
 					</div>
 					<div onclick="" class="sub-menu-item-nav dropdown-item">
-						ทั้งหมด
+						รถยนต์ทั้งหมด
 					</div>
 					<div onclick="window.location='FormAddCar.php'" class="sub-menu-item-nav dropdown-item">
 						เพิ่มสินค้า

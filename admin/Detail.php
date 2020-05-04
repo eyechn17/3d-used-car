@@ -212,8 +212,8 @@
                 
               </td>
               <td>
-                <button onClick="buysell(this.value)" value="<?php echo $profileID; ?>">สัญญาซื้อ</button><button onClick="buysell(this.value)"
-				 value="<?php echo $buyprofilecarID; ?>" <?php if($buyprofilecarID=="0"||$buyprofilecarID==""){echo "hidden";}else{} ?> >สัญญาขาย</button>
+                <button onClick="buysell(this.value)" value="<?php echo $profileID; ?>">สัญญาขาย</button><button onClick="buysell(this.value)"
+				 value="<?php echo $buyprofilecarID; ?>" <?php if($buyprofilecarID=="0"||$buyprofilecarID==""){echo "hidden";}else{} ?> >สัญญาซื้อ</button>
               </td>
             </tr>
 			
