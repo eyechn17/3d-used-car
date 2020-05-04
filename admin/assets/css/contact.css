@@ -1,0 +1,36 @@
+.contact-container {
+  display: flex;
+  margin: 40px auto;
+  justify-content: space-between;
+  width: 75%;
+}
+
+.contact-info {
+  width: 100%;
+}
+
+.head-text {
+  font-size: 34px;
+  font-weight: bold;
+}
+
+.body-text {
+  word-break: break-all;
+}
+
+.line-img {
+  width: 80px;
+  margin-left: 30px;
+}
+
+.map-img {
+  width: 100%;
+}
+
+.icon-pin {
+  width: 32px;
+}
+
+.line-pin {
+  position: absolute;
+}

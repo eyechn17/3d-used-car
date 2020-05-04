@@ -1,0 +1,41 @@
+.search-car-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.search-car {
+  padding: 35px;
+  margin-bottom: 20px;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 3px solid #EA7216;
+}
+
+.search-box {
+  width: 200px;
+  margin: 10px;
+}
+
+.search-topic {
+  margin-left: 40px;
+  font-size: 32px;
+}
+
+.btn-search-wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.search-btn {
+  background-color: #EA7216;
+  margin-right: 40px;
+  width: 90px;
+}
+
+.search-btn:hover {
+  background-color: rgb(255, 163, 93);
+  color: #fff;
+}
+

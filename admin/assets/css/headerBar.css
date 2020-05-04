@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+body {
+	font-family: 'Kanit', sans-serif;
+	margin: 0;
+}
+.navbar {
+	background-color: #ea7216;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	padding: 0 100px;
+	display: flex;
+	justify-content: space-between;
+	font-size: 21px;
+	z-index: 100;
+	width: 100%;
+}
+
+.nav-item {
+	margin-right: 10px;
+}
+
+.nav-link {
+	color: #000000;
+	padding-right: 20px;
+	border-bottom: 3px solid transparent;
+}
+
+.active-item {
+	color: #ffffff;
+}
+
+.nav-link:hover {
+	color: #f4f4f4;
+}
+
+.nav-link-dropdown:hover {
+	background-color: #ea7216;
+}
+
+.text-logo {
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 40px;
+	font-family: 'Anton', sans-serif;
+}
+
+.text-logo:hover {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.sub-menu-item-nav {
+	cursor: pointer;
+}
+
+.sub-menu-item-nav:hover {
+	background-color: #ff9800;
+	color: #ffffff;
+}
+
+.sub-dropdown {
+	background-color: #ea7216;
+}

@@ -1,0 +1,19 @@
+.refin-container-st {
+  height: 80vh;
+  padding-top: 100px;
+}
+
+.refin-container-nd {
+  margin-bottom: 50px;
+}
+
+.refin-img-brochure {
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+.head-refin-img {
+  width: 55%;
+}
